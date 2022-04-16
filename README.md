@@ -2,7 +2,7 @@
 
 **Project's Target**: To learn how to use Formik and Yup libraries to create a registration form. Also to learn, how to set a Dark Mode feature. This is not a responsive project. Best works with large scales. Name and Surname inputs are optional but the other inputs have to be filled with respect to the requirements of the inputs. After submission, inputs can be viewed from the console. Dark and Light modes are stored in the localStorage.
 
-**Live Version** :
+**Live Version** : https://patika-register-page-reactjs.vercel.app/
 
 **Screenshots** :
 
