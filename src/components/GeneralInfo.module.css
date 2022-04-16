@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Oxygen:wght@300&family=Roboto&display=swap");
+
+.parentDiv {
+  flex: 1;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  background-color: var(--generalInfo-background-color);
+}
+
+.patikaDevDiv {
+  margin: 0 0 0 56px;
+}
+
+.header {
+  margin: 42px 0 0 56px;
+  color: var(--generalInfo-color);
+  font-family: "Oxygen";
+  font-size: 59px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.paragraphDiv {
+  margin: 20px 36px 0px 56px;
+}
+
+.paragraph {
+  color: var(--generalInfo-color);
+  font-family: "Oxygen";
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.smallCardDiv {
+  margin: 0 59px 32px 460px;
+}
+
+.bigCardDiv {
+  margin: -40px 121px 0 238px;
+}

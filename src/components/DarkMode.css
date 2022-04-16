@@ -1,0 +1,31 @@
+:root {
+  --font-color: #3c3c3c;
+  --background-color: #fefefe;
+  --lineButton-color: #444aff;
+  --generalInfo-background-color: lightgray;
+  --generalInfo-color: #444aff;
+}
+
+[data-theme="dark"] {
+  --font-color: #fefefe;
+  --background-color: #3c3c3c;
+  --lineButton-color: #ffbf5e;
+  --generalInfo-background-color: gray;
+  --generalInfo-color: #fefefe;
+}
+
+.toggle-theme-wrapper {
+  position: relative;
+}
+
+.toggle-theme {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.toggle-theme input {
+  display: none;
+}

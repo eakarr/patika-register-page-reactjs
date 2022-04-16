@@ -1,0 +1,12 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(156, 154, 154);
+}
+
+.mainDiv {
+  display: flex;
+  min-width: 1280px;
+}

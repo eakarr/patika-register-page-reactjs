@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Oxygen:wght@300&family=Roboto&display=swap");
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1.1;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+.formContainer form {
+  width: 60%;
+}
+
+span {
+  font-family: "Oxygen";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #ee6356;
+  height: 15px;
+}
+
+h1 span {
+  color: var(--font-color);
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-family: "Oxygen";
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 20px;
+  letter-spacing: 0px;
+  color: var(--font-color);
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--lineButton-color);
+}
+
+.formHeader {
+  margin-bottom: 32px;
+}
+
+.formNameSurnameGroup {
+  display: flex;
+}
+
+.name,
+.surname {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  margin-right: 32px;
+}
+
+.name > label,
+.surname > label {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Oxygen";
+  margin-bottom: 12px;
+  text-align: left;
+  color: var(--font-color);
+}
+
+.name > input,
+.surname > input {
+  height: 56px;
+  border-radius: 4px;
+  border: 2px solid #8e8e8e;
+  font-family: "Oxygen";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  text-align: left;
+  padding-left: 5px;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+.name > input[type="text"]::placeholder,
+.surname > input[type="text"]::placeholder {
+  padding-left: 24px;
+}
+
+.required:after {
+  color: #ee6356;
+  content: " *";
+  margin-left: 5px;
+}
+
+.formGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.formGroup > label {
+  margin-bottom: 12px;
+  font-family: "Oxygen";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: var(--font-color);
+}
+
+.formGroup > input {
+  height: 56px;
+  border-radius: 4px;
+  border: 2px solid #8e8e8e;
+  font-family: "Oxygen";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 5px;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+.formGroup > input[type="text"]::placeholder {
+  padding-left: 24px;
+}
+
+.formCheckBoxAndParagraphGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkBoxAndParagraph {
+  display: flex;
+  align-items: center;
+}
+
+.checkBoxAndParagraph > input {
+  border: 2px solid #8e8e8e;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.checkBoxAndParagraph > p {
+  font-family: "Oxygen";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #8e8e8e;
+}
+
+.registerButton {
+  background: var(--lineButton-color);
+  height: 46px;
+  font-family: "Oxygen";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.registerButtonDisable {
+  background: var(--lineButton-color);
+  height: 46px;
+  font-family: "Oxygen";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 0.6;
+  margin-bottom: 20px;
+}
