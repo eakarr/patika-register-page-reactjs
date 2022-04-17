@@ -98,7 +98,7 @@ const RegistrationForm = () => {
                   PASSWORD
                 </label>
                 <input
-                  type="text"
+                  type="password"
                   name="password"
                   placeholder="Enter your password"
                   value={values.password}
@@ -115,7 +115,7 @@ const RegistrationForm = () => {
                   CONFIRM PASSWORD
                 </label>
                 <input
-                  type="text"
+                  type="password"
                   name="confirmPassword"
                   placeholder="Confirm your password"
                   value={values.confirmPassword}
